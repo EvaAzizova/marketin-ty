@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Agency</title>
+    <link rel="stylesheet" href="../маркетинг/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../маркетинг/img/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">О Нас</a></li>
+                <li><a href="#">Проекты</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Мерч</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="blur-circle" id="expandable-circle"></div>
+            <div class="text-content">
+                <h1 class="spaced-text">ДАВАЙ НА ТЫ</h1>
+                <p>Full-stack маркетинг агентство</p>
+                <p>Делаем компании <span class="highlight">выдающимися</span></p>
+                <a href="#" class="cta-button">Начать проект</a>
+            </div>
+        </div>
+        </div>
+        <div class="slide slide-2">
+            <h1>Второй экран</h1>
+            <p>Это содержание второго экрана.</p>
+        </div>
+    </main>
+    <!-- Второй экран, изначально скрыт -->
+    <div id="second-screen" class="screen hidden">
+        <h1></h1>
+        <p></p>
+    </div>
+
+    <!-- Оверлей для плавного перехода -->
+    <div id="overlay"></div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
